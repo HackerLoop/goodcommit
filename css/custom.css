@@ -5,7 +5,7 @@
  html, body {
     height:100%;
 }   
-.full-image {
+.full-image {   
     display: block;
     width: 50%;
     background: url('http://placehold.it/1900x1000') no-repeat center center scroll;
@@ -36,6 +36,7 @@ Responsive variables
 @media(max-width:767px) {
     .full-image {    
         width: 100%;
+        max-height: 300px;
     }
 
 }
