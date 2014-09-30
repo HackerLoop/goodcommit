@@ -1,0 +1,41 @@
+/*!
+ * Landing page by Hackerloop
+ */
+
+ html, body {
+    height:100%;
+}   
+.full-image {
+    display: block;
+    width: 50%;
+    background: url('http://placehold.it/1900x1000') no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+footer {
+    margin: 50px 0;
+}
+
+/*
+Responsive variables
+*/
+
+@media(min-width:1024px) {
+
+}
+
+@media(min-width:768px) {
+
+}
+
+@media(max-width:767px) {
+    .full-image {    
+        width: 100%;
+    }
+
+}
